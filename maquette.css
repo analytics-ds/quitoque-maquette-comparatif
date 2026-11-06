@@ -68,3 +68,6 @@ body.modal-open{overflow:auto!important;padding-right:0!important}
 @media (max-width:767.98px){.mq .mq-meth dl{grid-template-columns:1fr;gap:2px}.mq .mq-meth dd{margin-bottom:8px}}
 .mq .mq-meth.mq-hl{box-shadow:inset 0 0 0 2px #fff3a0}
 body.mq-off .mq .mq-meth.mq-hl{box-shadow:none}
+.mq .mq-ul{text-align:left;list-style-position:outside;padding-left:22px}
+.mq .mq-ul li{text-align:left}
+.mq .mq-encart p strong{color:#00a65a}
