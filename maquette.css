@@ -1,0 +1,55 @@
+/* Maquette datashake : valeurs reprises de DA.md (Lato / Arial, #00a65a, #e1822d, #464e4a, #f8f6f4, rayon 8 et 16 px) */
+.description.mq{font-family:Arial,sans-serif;color:#000}
+.mq .mq-h2{font-family:Arial,sans-serif;font-size:17pt;font-weight:700;color:#00a65a;text-align:center;line-height:1.38;margin:32px 0 12px}
+.mq .mq-h3{font-family:Arial,sans-serif;font-size:13pt;font-weight:700;color:#464e4a;text-align:center;line-height:1.38;margin:24px 0 8px}
+.mq .mq-p,.mq .mq-ul li{font-family:Arial,sans-serif;font-size:11pt;font-weight:400;color:#000;line-height:1.38;text-align:center;margin:0 0 12px}
+.mq .mq-ul{list-style-position:inside;padding:0}
+.mq .mq-img{display:block;width:100%;max-width:476px;height:auto;margin:24px auto;border-radius:16px}
+.mq .mq-table-wrap{overflow-x:auto;margin:16px 0 8px}
+.mq table.mq-t,.mq table.mq-grille{border-collapse:collapse;width:100%;font-family:Arial,sans-serif;font-size:10pt;color:#000}
+.mq table.mq-t th,.mq table.mq-t td{border:1px solid #000;padding:7px;vertical-align:top;text-align:center;line-height:1.38}
+.mq table.mq-t th{font-weight:700}
+/* grille de notation */
+.mq table.mq-grille th,.mq table.mq-grille td{border:1px solid #b6b6b6;padding:8px 6px;text-align:center;vertical-align:middle;line-height:1.3}
+.mq table.mq-grille thead th{background:#f8f6f4;color:#464e4a;font-weight:700;font-size:10.5pt}
+.mq table.mq-grille tbody th{text-align:left;font-weight:700;color:#464e4a;background:#fff;min-width:120px}
+.mq table.mq-grille th small{display:block;font-weight:400;color:#9b9b9b;font-size:8.5pt}
+.mq .mq-rank{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:32px;background:#00a65a;color:#fff;font-size:9pt;margin-right:6px}
+.mq .mq-score{display:block;font-weight:700;color:#464e4a;font-size:11pt}
+.mq .mq-score small,.mq .mq-total small{font-weight:400;color:#9b9b9b;font-size:8pt}
+.mq .mq-fact{display:block;color:#4a4a4a;font-size:8.5pt;margin-top:2px}
+.mq td.mq-nt{color:#9b9b9b;font-style:italic;font-size:8.5pt}
+.mq table.mq-grille tfoot th,.mq table.mq-grille tfoot td{background:#f8f6f4;font-weight:700;color:#464e4a}
+.mq .mq-total{display:inline-block;background:#00a65a;color:#fff;border-radius:32px;padding:4px 12px;font-size:12pt}
+.mq .mq-total small{color:#fff}
+.mq .mq-small{font-size:9pt;color:#4a4a4a;text-align:center;margin:8px 0}
+.mq .mq-center{text-align:center}
+.mq .mq-contact{border:2px solid #00a65a;border-radius:16px;padding:12px 16px;margin:16px 0}
+.mq .mq-contact p{font-size:10pt;margin:0;text-align:center;color:#000}
+.mq .mq-contact a{color:#00a65a;text-decoration:underline}
+.mq .mq-methode{margin:12px 0;font-size:10pt;color:#000}
+.mq .mq-methode summary{cursor:pointer;font-weight:700;color:#e1822d;text-align:center}
+.mq .mq-methode ul{margin:8px 0 0;padding-left:20px}
+.mq .mq-methode li{margin-bottom:4px}
+.mq .mq-cta{margin:24px 0 4px}
+.mq .mq-encart{background:#f8f6f4;border-radius:16px;padding:16px 20px;margin:8px 0 24px}
+.mq .mq-encart p{font-size:10.5pt;margin:0;text-align:center;color:#464e4a}
+/* couche d'annotation de la maquette */
+.mq mark{background:#fff3a0;color:inherit;padding:0 1px}
+.mq .mq-new{outline:2px dashed #e1822d;outline-offset:6px;border-radius:8px}
+.mq-new-inline{background:#fff3a0}
+body.mq-off .mq mark,body.mq-off .mq-new-inline{background:transparent}
+body.mq-off .mq .mq-new{outline:none}
+.mq-toggle{position:fixed;right:16px;bottom:16px;z-index:9999;background:#464e4a;color:#fff;border:0;border-radius:8px;padding:10px 16px;font:700 14px Lato,sans-serif;box-shadow:rgba(17,24,90,.1) 0 0 12px 0;cursor:pointer}
+.mq-badge{position:fixed;left:16px;bottom:16px;z-index:9999;background:#e1822d;color:#fff;border-radius:8px;padding:8px 12px;font:700 12px Lato,sans-serif}
+@media (max-width:767.98px){.mq .mq-h2{font-size:15pt}.mq table.mq-grille{font-size:9pt}.mq-badge{display:none}}
+/* popup newsletter figé à la capture */
+.modal.show,.modal-backdrop{display:none!important}
+body.modal-open{overflow:auto!important;padding-right:0!important}
+/* le style du blog écrase les titres et les tableaux */
+.description.mq h2.mq-h2{color:#00a65a!important;font-family:Arial,sans-serif!important;font-size:17pt!important}
+.description.mq h3.mq-h3{color:#464e4a!important;font-family:Arial,sans-serif!important}
+.description.mq p,.description.mq li,.description.mq td{font-weight:400}
+.description.mq table.mq-t th,.description.mq table.mq-grille th,.description.mq strong{font-weight:700}
+.mq table.mq-t{font-size:9pt}
+.mq .mq-total{white-space:nowrap}@media (max-width:767.98px){.mq .mq-total{font-size:10pt;padding:3px 8px}}
